@@ -1,0 +1,180 @@
+@media only screen {
+  .s1 {
+    background: url("./AM_004/AM_004_D/Copy\ of\ 1.png");
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  .s2 {
+    background: url("./AM_004/AM_004_D/Copy\ of\ 2.png");
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  #snd {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 4rem;
+  }
+  .s3 {
+    background: url("./AM_004/AM_004_D/Copy\ of\ 3.png");
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  .s4 {
+    background: url("./AM_004/AM_004_D/Copy\ of\ 4.png");
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  .s5 {
+    background: url(./bg-a.png);
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .s1 {
+    background: url("./AM_004/AM_004_P/Copy\ of\ 1.png");
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  .s2 {
+    background: url("./AM_004/AM_004_P/Copy\ of\ 2.png");
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  #snd {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 4rem;
+  }
+  .s3 {
+    background: url("./AM_004/AM_004_P/Copy\ of\ 3.png");
+    background-size: cover;
+
+    background-size: 100% 100%;
+  }
+  .s4 {
+    background: url("./AM_004/AM_004_P/Copy\ of\ 4.png");
+    background-size: cover;
+
+    background-size: 100% 100%;
+  }
+  .s5 {
+    background: url(./bg-a.png);
+    background-size: cover;
+  }
+  .s6 {
+    background: url(./form-bg-mobile.png);
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .s1 {
+    background: url("./AM_004/AM_004_TAB_P/Copy\ of\ 1.png");
+    background-size: cover;
+
+    background-size: 100% 100%;
+  }
+  .s2 {
+    background: url("./AM_004/AM_004_TAB_P/Copy\ of\ 2.png");
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  #snd {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 4rem;
+  }
+  .s3 {
+    background: url("./AM_004/AM_004_TAB_P/Copy\ of\ 3.png");
+    background-size: cover;
+
+    background-size: 100% 100%;
+  }
+  .s4 {
+    background: url("./AM_004/AM_004_TAB_P/Copy\ of\ 4.png");
+    background-size: cover;
+
+    background-size: 100% 100%;
+  }
+  .s5 {
+    background: url(./bg-a.png);
+    background-size: cover;
+  }
+  .s6 {
+    background: url(./form-bg-mobile.png);
+    background-size: cover;
+  }
+}
+@media only screen and (min-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .s1 {
+    background: url("./AM_004/AM_004_TAB_L/Copy\ of\ 1.png");
+    background-size: cover;
+
+    background-size: 100% 100%;
+  }
+  .s2 {
+    background: url("./AM_004/AM_004_TAB_L/Copy\ of\ 2.png");
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  #snd {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 4rem;
+  }
+  .s3 {
+    background: url("./AM_004/AM_004_TAB_L/Copy\ of\ 3.png");
+    background-size: cover;
+
+    background-size: 100% 100%;
+  }
+  .s4 {
+    background: url("./AM_004/AM_004_TAB_L/Copy\ of\ 4.png");
+    background-size: cover;
+
+    background-size: 100% 100%;
+  }
+  .s5 {
+    background: url(./bg-a.png);
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+  .s1 {
+    background: url("./AM_004/AM_004_D/Copy\ of\ 1.png");
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  .s2 {
+    background: url("./AM_004/AM_004_D/Copy\ of\ 2.png");
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  #snd {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 4rem;
+  }
+  .s3 {
+    background: url("./AM_004/AM_004_D/Copy\ of\ 3.png");
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  .s4 {
+    background: url("./AM_004/AM_004_D/Copy\ of\ 4.png");
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  .s5 {
+    background: url(./bg-a.png);
+    background-size: cover;
+    margin-bottom: 0%;
+  }
+  .s6{
+    background-color: #FFFFFF;
+background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+
+  }
+}
