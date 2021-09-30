@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Great+Vibes&family=Italianno&family=Quicksand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Great+Vibes&family=Italianno&family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
 
 /*
 font-family: 'Cinzel Decorative', cursive;
@@ -9,41 +9,60 @@ font-family: 'Quicksand', sans-serif;*/
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
-  font-family: "Muli-Regular";
+  
   color: rgb(109, 4, 4);
-  font-size: 13px;
-  margin: 0; }
+  
+  margin: 0;
+}
 
-input, textarea, select, button {
+input,
+textarea,
+select,
+button {
   font-family: "Muli-Regular";
   color: #333;
-  font-size: 13px; }
+  font-size: 13px;
+}
 
-p, h1, h2, h3, h4, h5, h6, ul {
-  margin: 0; }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+}
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 ul {
   padding-left: 0;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 :focus {
-  outline: none; }
+  outline: none;
+}
 
 .wrapper {
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  align-items: center; }
+  align-items: center;
+}
 
 .inner {
   border-radius: 20px;
@@ -54,44 +73,48 @@ a:hover {
   padding-bottom: 48px;
   background: url("./Colorful\ Floral\ Animated\ Wedding\ Announcement\ Instagram\ Post\ \(950\ x\ 500\ px\).png");
   opacity: 9;
- }
- .inner h1{
-   font-size: 40px;
-   font-weight: 800;
-   text-align: center;
-   font-family: 'Cinzel Decorative', cursive;
- }
+}
+.inner h1 {
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Cinzel Decorative", cursive;
+}
 
-  .inner h3 {
-    
-    font-size: 14px;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    margin-bottom: 32px;
-    color: #333;
-    letter-spacing: 2px; }
+.inner h3 {
+  font-size: 14px;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #333;
+  letter-spacing: 2px;
+}
 
 form {
   width: 50%;
-  padding-left: 45px; }
+  padding-left: 45px;
+}
 
 .form-group {
-  display: flex; }
-  .form-group .form-wrapper {
-    width: 100%; }
-   
+  display: flex;
+}
+.form-group .form-wrapper {
+  width: 100%;
+}
 
 .form-wrapper {
-  margin-bottom: 17px; }
-  .form-wrapper label {
-    font-size: 15px;
-    margin-bottom: 9px;
-    display: block; 
-    font-family: 'Quicksand', sans-serif;
-  font-weight: 800;}
+  margin-bottom: 17px;
+}
+.form-wrapper label {
+  font-size: 15px;
+  margin-bottom: 9px;
+  display: block;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 800;
+}
 
 .form-control {
-  border: 2px solid #800051;
+  border: 1px solid #ccc;
   display: block;
   width: 100%;
   height: 40px;
@@ -99,18 +122,20 @@ form {
   border-radius: 20px;
   font-family: "Muli-Bold";
   background: none;
-
 }
-  .form-control:focus {
-    border: 2.5px solid #3575D3  ; }
+.form-control:focus {
+  border: 1.5px solid #3575d3;
+}
 
 select {
   -moz-appearance: none;
   -webkit-appearance: none;
   cursor: pointer;
-  padding-left: 20px; }
-  select option[value=""][disabled] {
-    display: none; }
+  padding-left: 20px;
+}
+select option[value=""][disabled] {
+  display: none;
+}
 
 .form-submit {
   border: none;
@@ -123,11 +148,11 @@ select {
   align-items: center;
   justify-content: center;
   padding: 0;
-  background: #690202 ;
+  background: #690202;
   font-size: 18px;
   color: #fff;
   text-transform: uppercase;
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: "Cinzel Decorative", cursive;
   letter-spacing: 00.1rem;
   border-radius: 20px;
   overflow: hidden;
@@ -138,31 +163,34 @@ select {
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s; }
-  .form-submit:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #14af00  ;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transform-origin: 0 50%;
-    transform-origin: 0 50%;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out; }
-  button:hover:before {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); }
+  transition-duration: 0.5s;
+}
+.form-submit:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #14af00;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+button:hover:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -171,28 +199,34 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
-
 @media (max-width: 991px) {
   .inner {
-    min-width: 768px; } }
+    min-width: 768px;
+  }
+}
 @media (max-width: 767px) {
+  .inner h1 h3{
+    font-size: smaller;
+  }
   .inner {
-    min-width: auto;
+    min-width: 95%;
     background: none;
     padding-top: 0;
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    top: 0%;
+    
+  }
 
   form {
     width: 100%;
     padding-right: 15px;
-    padding-left: 15px; } }
-
-
-
+    padding-left: 15px;
+  }
+}
 
 /* map styling */
 #snow {
@@ -205,9 +239,8 @@ input[type=number] {
   z-index: 1000;
 }
 .map-wrapper {
- 
   padding: 10px 0 10px 0;
- 
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -216,9 +249,8 @@ input[type=number] {
   display: flex;
   flex-direction: row;
   width: 100%;
-  
+
   margin: 0 auto;
- 
 }
 .right-section {
   height: 50%;
@@ -227,7 +259,6 @@ input[type=number] {
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 .left-section {
   width: 40%;
@@ -258,19 +289,17 @@ input[type=number] {
   color: #fad25a;
   margin: 2px;
   font-size: 26px;
-  
+
   font-family: "Cinzel Decorative", cursive;
-  
 }
 .left-section div p {
   font-size: 40px;
   padding: 20px 10px;
   text-align: center;
   letter-spacing: 0.25rem;
- 
+
   color: #fad25a;
-  font-family: 'Cookie', cursive;
- 
+  font-family: "Cookie", cursive;
 }
 .rightest-section div p {
   font-size: 40px;
@@ -302,7 +331,7 @@ input[type=number] {
   font-family: "Cinzel Decorative", cursive;
   color: #fad25a;
 }
-.btn-container{
+.btn-container {
   margin-top: 8%;
   display: flex;
   justify-content: center;
@@ -311,12 +340,12 @@ input[type=number] {
 /* CSS */
 .button-63 {
   align-items: center;
-  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
   border: 0;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   font-family: Phantomsans, sans-serif;
   font-size: 40px;
@@ -347,10 +376,10 @@ input[type=number] {
 
 @media screen and (max-width: 768px) {
   /* for responsive map area */
-   #direction-header {
+  #direction-header {
     display: none;
   }
-  .line{
+  .line {
     display: none;
   }
   .map-wrapper {
@@ -383,33 +412,29 @@ input[type=number] {
     width: 100%;
     height: 250px;
   }
-  .btn-container{
+  .btn-container {
     margin-top: 2%;
   }
-
 }
-
-
 
 /*social media icons*/
 
-.social-menu{
+.social-menu {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-
 }
- h5{
+h5 {
   position: absolute;
-   color: rgb(78, 0, 0);
-   margin-top: 10px;
+  color: rgb(78, 0, 0);
+  margin-top: 10px;
   top: 94%;
-  left:41.5%;
+  left: 41.5%;
   letter-spacing: 0.1rem;
   text-align: center;
 }
-.social-menu ul{
+.social-menu ul {
   position: absolute;
   top: 90%;
   left: 50%;
@@ -419,23 +444,23 @@ input[type=number] {
   display: flex;
 }
 
-.social-menu ul li{
+.social-menu ul li {
   list-style: none;
   margin: 0 15px;
 }
 
-.social-menu ul li .fab{
+.social-menu ul li .fab {
   font-size: 30px;
   line-height: 60px;
-  transition: .3s;
+  transition: 0.3s;
   color: #000;
 }
 
-.social-menu ul li .fab:hover{
+.social-menu ul li .fab:hover {
   color: #fff;
 }
 
-.social-menu ul li a{
+.social-menu ul li a {
   position: relative;
   display: block;
   width: 60px;
@@ -443,37 +468,33 @@ input[type=number] {
   border-radius: 50%;
   background-color: #fff;
   text-align: center;
-  transition: .6s;
-  box-shadow: 0 5px 4px rgba(0,0,0,.5);
+  transition: 0.6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
 
-.social-menu ul li a:hover{
+.social-menu ul li a:hover {
   transform: translate(0, -10%);
 }
 
-.social-menu ul li:nth-child(1) a:hover{
+.social-menu ul li:nth-child(1) a:hover {
   background-color: rgba(0, 0, 0, 0.829);
 }
-.social-menu ul li:nth-child(2) a:hover{
-  background-color: #E4405F;
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #e4405f;
 }
-.social-menu ul li:nth-child(3) a:hover{
+.social-menu ul li:nth-child(3) a:hover {
   background-color: #0077b5;
 }
-.social-menu ul li:nth-child(4) a:hover{
+.social-menu ul li:nth-child(4) a:hover {
   background-color: #000;
 }
 
-
 @media screen and (max-width: 768px) {
-  h5{
+  h5 {
     left: 10%;
     letter-spacing: 0;
   }
-  
-
 }
-
 
 /**Audio button*/
 #player-container #play-pause {
