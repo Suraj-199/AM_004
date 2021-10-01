@@ -106,7 +106,7 @@ form {
   margin-bottom: 14px;
 }
 .form-wrapper label {
-  font-size: 12px;
+  font-size: 10px;
   margin-bottom: 4px;
   display: block;
   font-family: "Quicksand", sans-serif;
@@ -132,9 +132,7 @@ select {
   cursor: pointer;
   padding-left: 20px;
 }
-select option[value=""][disabled] {
-  display: none;
-}
+
 
 .form-submit {
   border: none;
